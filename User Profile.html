@@ -1,0 +1,81 @@
+
+<! DOCTYPE html>
+<html lang="en">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/custom.css" rel="stylesheet">
+	<head>
+<h1><div> <br/>
+	</div>
+	User Profile
+	<div class="fill"> <br/>
+	</div>
+	</h1>
+</head>
+<body>
+
+<div class="container">
+
+	<a href="profile.php"><button>Profile</button></a>
+	<a href="addaccount.php"><button>Create Account</button></a>
+	<a href="createticket.php"><button>Create Ticket</button></a>
+	<a href="ticketoptions.php"><button>Ticket Options</button></a>
+	<a href="logout.php"><button>Log Out</button></a>
+	
+	</div>
+	
+	<!--Heading regarding type of user can be dependent on the user logged in-->
+	<!--Button links will need to be included to the final completed pages-->
+	
+		<h3>
+User : Service Desk
+</h3>
+
+<h2>Department Tickets Avaliable</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Status</th>
+	<th>Selection</th>
+  </tr>
+  <tr>
+  <!--Status terms required: Not taken, processing, complete or repeat -->
+    <td>Password Reset</td>
+    <td>Student requires a password reset</td>
+    <td>Not Taken</td>
+	<td><button>Select Ticket</button></td>
+  </tr>
+  <tr>
+    <td>Login Error</td>
+    <td>Login will not work with a Students Username and Password Combination</td>
+    <td>Not Taken</td>
+	<td><button>Select Ticket</button></td>
+  </tr>
+</table>
+<hr>
+<h2>User's Tickets</h2>
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Status</th>
+	<th>Ticket Options</th>
+  </tr>
+  <tr>
+  <!--Status terms required: Not taken, processing, complete or repeat -->
+    <td>Password Reset</td>
+    <td>Student requires a password reset</td>
+    <td>Repeat</td>
+	<td><button>Handle Ticket</button></td>
+  </tr>
+  <tr>
+    <td>No Modules Showing</td>
+    <td>Students modules will not appear after loggin in</td>
+    <td>Processing</td>
+	<td><button>Handle Ticket</button></td>
+  </tr>
+</table>
+	</body>
+	</html>
